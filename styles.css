@@ -103,7 +103,7 @@ section.block{ position:relative; z-index:1; padding:72px 0; border-top:1px soli
 .sector-cell{ border-bottom:1px solid var(--line); border-right:1px solid var(--line); padding:26px 28px; transition:background .15s ease; }
 .sector-cell:hover{ background:rgba(242,241,237,0.02); }
 .sector-cell h3{ font-family:var(--display); font-size:18px; font-weight:500; margin-bottom:8px; }
-.sector-cell p{ font-size:13.5px; color:var(--muted-dim); line-height:1.6; }
+.sector-cell p{ font-size:13.5px; color:var(--ink); line-height:1.6; }
 
 .contact{ position:relative; z-index:1; border-top:1px solid var(--line); padding:88px 0; }
 .contact-grid{ display:grid; grid-template-columns:1.2fr 0.8fr; gap:56px; align-items:end; }
