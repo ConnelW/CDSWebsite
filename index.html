@@ -17,7 +17,7 @@
 
   <header>
     <div class="wrap topbar">
-      <div class="brand">
+      <a class="brand" href="#top">
         <svg viewBox="20 8 162 184" xmlns="http://www.w3.org/2000/svg">
           <polygon points="100,20 30.7,60 30.7,140 100,180 169.3,140 169.3,60" fill="none" stroke="#F2F1ED"
             stroke-width="7" stroke-linejoin="round" />
@@ -28,9 +28,10 @@
           <circle cx="145" cy="100" r="7" fill="#E8A33D" />
         </svg>
         <div class="brand-name">Critical Drive Systems</div>
-      </div>
+      </a>
       <nav>
         <div class="nav-links">
+          <a href="#top">Home</a>
           <a href="#what-we-do">What we do</a>
           <a href="#experience">Experience</a>
           <a href="#sectors">Sectors</a>
@@ -40,7 +41,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
       <svg class="hex-watermark" viewBox="0 0 400 460" xmlns="http://www.w3.org/2000/svg">
         <polygon points="200,10 370,105 370,295 200,390 30,295 30,105" fill="none" stroke="rgba(242,241,237,0.06)"
@@ -64,7 +65,7 @@
           </p>
 
           <p class="lede">
-            We support the whole safety-critical V-cycle: <b>safety-case flowdown</b>,
+            We support the whole safety critical V-cycle: <b>safety-case flowdown</b>,
             design of <b>fail-safe and fault-tolerant architectures</b>, rapid development through
             <b>model-based design</b> and
             automated testing of software and hardware. All to the
@@ -198,6 +199,20 @@
       <div class="foot-tag">SAFETY CRITICAL | CYBER SECURE | POWER SYSTEMS</div>
     </div>
   </footer>
+
+  <script>
+    (function () {
+      var header = document.querySelector('header');
+      function setHeaderHeight() {
+        document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
+      }
+      setHeaderHeight();
+      window.addEventListener('resize', setHeaderHeight);
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(setHeaderHeight);
+      }
+    })();
+  </script>
 
 </body>
 

@@ -14,7 +14,7 @@
   --mono:'IBM Plex Mono', monospace;
 }
 *{box-sizing:border-box; margin:0; padding:0;}
-html{scroll-behavior:smooth; background:var(--bg);}
+html{scroll-behavior:smooth; background:var(--bg); scroll-padding-top:var(--header-h, 100px);}
 body{
   background:var(--bg);
   color:var(--ink);
