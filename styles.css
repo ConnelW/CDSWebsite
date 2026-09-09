@@ -84,11 +84,11 @@ nav{ display:flex; align-items:center; gap:34px; }
 h1{ font-family:var(--display); font-size:52px; line-height:1.1; font-weight:500; letter-spacing:-0.01em; color:var(--ink); }
 .lede{ margin-top:26px; color:var(--muted); font-size:16.5px; max-width:58ch; line-height:1.7; }
 .hero-actions{ margin-top:38px; display:flex; align-items:center; gap:22px; flex-wrap:wrap; }
-.addr{ font-family:var(--mono); font-size:12.5px; color:var(--muted-dim); }
+.addr{ font-family:var(--mono); font-size:12.5px; color:var(--muted); }
 
 section.block{ position:relative; z-index:1; padding:72px 0; border-top:1px solid var(--line); }
 .block-head{ display:grid; grid-template-columns:280px 1fr; gap:56px; }
-.kicker{ display:flex; align-items:center; gap:9px; font-family:var(--mono); font-size:11px; color:var(--muted-dim); letter-spacing:0.06em; margin-bottom:14px; }
+.kicker{ display:flex; align-items:center; gap:9px; font-family:var(--mono); font-size:11px; color:var(--blue); letter-spacing:0.06em; margin-bottom:14px; }
 .kicker svg{ width:12px; height:12px; flex-shrink:0; }
 .block-head h2{ font-family:var(--display); font-size:26px; font-weight:500; letter-spacing:-0.005em; max-width:12ch; }
 .block-body p{ color:var(--muted); font-size:15.5px; max-width:60ch; line-height:1.8; }
@@ -103,7 +103,7 @@ section.block{ position:relative; z-index:1; padding:72px 0; border-top:1px soli
 .sector-cell{ border-bottom:1px solid var(--line); border-right:1px solid var(--line); padding:26px 28px; transition:background .15s ease; }
 .sector-cell:hover{ background:rgba(242,241,237,0.02); }
 .sector-cell h3{ font-family:var(--display); font-size:18px; font-weight:500; margin-bottom:8px; }
-.sector-cell p{ font-size:13.5px; color:var(--muted); line-height:1.6; }
+.sector-cell p{ font-size:15px; color:var(--muted); line-height:1.6; }
 
 .contact{ position:relative; z-index:1; border-top:1px solid var(--line); padding:88px 0; }
 .contact-grid{ display:grid; grid-template-columns:1.2fr 0.8fr; gap:56px; align-items:end; }
@@ -114,7 +114,7 @@ section.block{ position:relative; z-index:1; padding:72px 0; border-top:1px soli
 
 footer{ position:relative; z-index:1; border-top:1px solid var(--line); padding:34px 0; }
 .foot-grid{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
-.foot-tag{ font-family:var(--mono); font-size:11px; color:var(--muted-dim); letter-spacing:0.04em; }
+.foot-tag{ font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:0.04em; }
 .foot-brand{ display:flex; align-items:center; gap:10px; }
 .foot-brand svg{ width:27px; height:auto; }
 .foot-brand span{ font-family:var(--display); font-size:14px; color:var(--muted); }
