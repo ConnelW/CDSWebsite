@@ -81,7 +81,7 @@ nav{ display:flex; align-items:center; gap:34px; }
 
 /* ============ Hero ============ */
 .hex-watermark{ position:absolute; top:-60px; right:-120px; width:640px; height:auto; opacity:0.55; pointer-events:none; z-index:0; }
-.hero{ padding:50px 0 47px; overflow:hidden; }
+.hero{ padding:30px 0 70px; overflow:hidden; }
 .tag-row{ display:flex; flex-wrap:wrap; font-family:var(--mono); font-size:12.5px; color:var(--muted); margin-bottom:44px; position:relative; z-index:1; }
 .tag-row span{ padding-right:16px; margin-right:16px; border-right:1px solid var(--line-strong); }
 .tag-row span:last-child{ border-right:none; padding-right:0; margin-right:0; }
@@ -95,7 +95,7 @@ h1{ font-family:var(--display); font-size:52px; line-height:1.1; font-weight:500
 .addr{ font-family:var(--mono); font-size:12.5px; color:var(--muted); }
 
 /* ============ Content sections ============ */
-section.block{ padding:47px 0; }
+section.block{ padding:70px 0; }
 .block-head{ display:grid; grid-template-columns:280px 1fr; gap:56px; }
 .kicker{ display:flex; align-items:center; gap:9px; font-family:var(--mono); font-size:11px; color:var(--blue); letter-spacing:0.06em; margin-bottom:14px; }
 .kicker svg{ width:12px; height:12px; flex-shrink:0; }
@@ -115,7 +115,7 @@ section.block{ padding:47px 0; }
 .sector-cell p{ font-size:15px; color:var(--muted); line-height:1.6; }
 
 /* ============ Contact ============ */
-.contact{ padding:47px 0; }
+.contact{ padding:70px 0; }
 .contact-grid{ display:grid; grid-template-columns:1.2fr 0.8fr; gap:56px; align-items:end; }
 .contact h2{ font-family:var(--display); font-size:34px; font-weight:500; max-width:12ch; letter-spacing:-0.01em; }
 .contact-actions{ text-align:right; }
@@ -123,7 +123,7 @@ section.block{ padding:47px 0; }
 .contact-actions .addr{ display:block; margin-top:14px; }
 
 /* ============ Footer ============ */
-footer{ padding:47px 0 34px; }
+footer{ padding:70px 0 34px; }
 .foot-grid{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
 .foot-tag{ font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:0.04em; }
 .foot-brand{ display:flex; align-items:center; gap:10px; }
