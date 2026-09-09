@@ -77,6 +77,7 @@ nav{ display:flex; align-items:center; gap:34px; }
   padding:15px 0; border-bottom:1px solid var(--line);
 }
 .mobile-menu a:last-child{ border-bottom:none; }
+.mobile-menu a.mobile-menu-cta{ color:var(--blue); font-weight:500; }
 
 /* ============ Hero ============ */
 .hex-watermark{ position:absolute; top:-60px; right:-120px; width:640px; height:auto; opacity:0.55; pointer-events:none; z-index:0; }
@@ -139,6 +140,7 @@ footer{ padding:47px 0 34px; }
   .contact-grid{ grid-template-columns:1fr; gap:28px; }
   .contact-actions{ text-align:left; }
   .nav-links{ display:none; }
+  .btn-ghost{ display:none; }
   .menu-toggle{ display:flex; }
   .wrap{ padding:0 22px; }
 }
